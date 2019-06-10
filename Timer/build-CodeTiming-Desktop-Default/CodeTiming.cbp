@@ -8,7 +8,7 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default"/>
+				<Option working_dir="/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/ninja -v all"/>
@@ -18,7 +18,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default"/>
+				<Option working_dir="/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/ninja -v rebuild_cache"/>
@@ -28,21 +28,12 @@
 				</MakeCommands>
 			</Target>
 			<Target title="CodeTiming">
-				<Option output="/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default/CodeTiming" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default"/>
+				<Option output="/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default/CodeTiming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
 					<Build command="/usr/bin/ninja -v CodeTiming"/>
 					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
@@ -51,21 +42,12 @@
 				</MakeCommands>
 			</Target>
 			<Target title="CodeTiming/fast">
-				<Option output="/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default/CodeTiming" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default"/>
+				<Option output="/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default/CodeTiming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
 					<Build command="/usr/bin/ninja -v CodeTiming/fast"/>
 					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
@@ -74,7 +56,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default"/>
+				<Option working_dir="/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/ninja -v edit_cache"/>
@@ -84,10 +66,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/arnaud/Desktop/C++/Timer/CodeTiming/main.cpp">
+		<Unit filename="/home/arnaud/dev/TutorialCpp/Timer/CodeTiming/main.cpp">
 			<Option target="CodeTiming"/>
 		</Unit>
-		<Unit filename="/home/arnaud/Desktop/C++/Timer/CodeTiming/CMakeLists.txt">
+		<Unit filename="/home/arnaud/dev/TutorialCpp/Timer/CodeTiming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

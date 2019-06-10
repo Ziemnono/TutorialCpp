@@ -1,4 +1,4 @@
-# Install script for directory: /home/arnaud/Desktop/C++/Timer/CodeTiming
+# Install script for directory: /home/arnaud/dev/TutorialCpp/Timer/CodeTiming
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule CXX_COMPILER__CodeTiming
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/g++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/c++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -33,7 +33,7 @@ rule CXX_COMPILER__CodeTiming
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__CodeTiming
-  command = $PRE_LINK && /usr/bin/g++  $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/c++  $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__CodeTiming
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -H/home/arnaud/Desktop/C++/Timer/CodeTiming -B/home/arnaud/Desktop/C++/Timer/build-CodeTiming-Desktop-Default
+  command = /usr/bin/cmake -H/home/arnaud/dev/TutorialCpp/Timer/CodeTiming -B/home/arnaud/dev/TutorialCpp/Timer/build-CodeTiming-Desktop-Default
   description = Re-running CMake...
   generator = 1
 
