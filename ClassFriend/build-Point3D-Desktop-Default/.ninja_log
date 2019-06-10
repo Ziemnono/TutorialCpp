@@ -1,0 +1,14 @@
+# ninja log v5
+0	233	1560173729	CMakeFiles/Point3D.dir/main.cpp.o	cba7f8782957fe36
+233	295	1560173729	Point3D	a055175603a04bc2
+1	229	1560174209	CMakeFiles/Point3D.dir/main.cpp.o	cba7f8782957fe36
+229	291	1560174210	Point3D	a055175603a04bc2
+2	255	1560174290	CMakeFiles/Point3D.dir/main.cpp.o	cba7f8782957fe36
+255	317	1560174290	Point3D	a055175603a04bc2
+0	17	1560174473	CMakeFiles/Point3D.dir/Point3d.cpp.o	33c0446cf327d013
+17	78	1560174473	Point3D	e65c6c604670c4e8
+1	22	1560174848	CMakeFiles/Point3D.dir/Vector3d.cpp.o	69797ce1acffb4b7
+1	31	1560175125	CMakeFiles/Point3D.dir/main.cpp.o	cba7f8782957fe36
+2	238	1560175125	CMakeFiles/Point3D.dir/Vector3d.cpp.o	69797ce1acffb4b7
+1	235	1560175152	CMakeFiles/Point3D.dir/Point3d.cpp.o	33c0446cf327d013
+235	296	1560175152	Point3D	8428eae61608424c
