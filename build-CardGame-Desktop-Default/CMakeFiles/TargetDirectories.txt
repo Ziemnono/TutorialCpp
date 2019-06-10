@@ -1,0 +1,3 @@
+/home/arnaud/Desktop/C++/build-CardGame-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/arnaud/Desktop/C++/build-CardGame-Desktop-Default/CMakeFiles/CardGame.dir
+/home/arnaud/Desktop/C++/build-CardGame-Desktop-Default/CMakeFiles/edit_cache.dir

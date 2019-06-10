@@ -1,0 +1,3 @@
+/home/arnaud/Desktop/C++/ClassFriend/build-Point3D-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/arnaud/Desktop/C++/ClassFriend/build-Point3D-Desktop-Default/CMakeFiles/Point3D.dir
+/home/arnaud/Desktop/C++/ClassFriend/build-Point3D-Desktop-Default/CMakeFiles/edit_cache.dir
